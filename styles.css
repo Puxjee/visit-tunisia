@@ -1,0 +1,95 @@
+/*Color Palette:
+    #61605D
+    #EAB664
+    #DDAE71
+    #7A5130
+    #A76A39
+*/
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  display: block;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero-section {
+  background-image: url("images/Tunisia.jpeg");
+  background-size: cover;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 10px;
+}
+
+#hero-title {
+  background: #ddae71;
+  padding: 5px;
+  border-radius: 5px;
+  color: #61605d;
+}
+
+#hero-disc {
+  background: #eab664;
+  padding: 5px;
+  border-radius: 5px;
+  color: #61605d;
+  margin: 0 200px;
+}
+
+.activities-section {
+  text-align: center;
+  background: #f0cd93;
+}
+
+#activities-title {
+  margin: 10px 0 0 0;
+  padding: 5px;
+  color: #61605d;
+}
+
+.activity-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 10px;
+  border: 2px solid rgb(177, 174, 174);
+}
+
+.guide-section {
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  width: 400px;
+  margin: 50px auto;
+  text-align: center;
+  color: #2b2839;
+  background-color: #d8cefe;
+  border-bottom: 10px solid #ddebf8;
+  border-radius: 5px;
+  box-shadow: #2b2839 0px 0px 10px 0px;
+}
+
+.guide-section img {
+  width: 150px;
+  border: 5px solid #ddebf8;
+  border-radius: 5px;
+}
+
+.avatar {
+  width: 150px;
+  border: 5px solid #ddebf8;
+  border-radius: 5px;
+}
+
+.guide-section:hover {
+  background-color: #e8e3fe;
+  border-bottom: 10px solid #c5d4e8;
+  .avatar {
+    border: 5px solid #c5d4e8;
+  }
+}
